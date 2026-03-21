@@ -35,10 +35,16 @@ This progression is intended to demonstrate realistic architectural evolution un
 
 The repository contains architecture artifacts that capture different perspectives of the roadmap, including:
 
-* Diagrams representing each state in the roadmap
+* High-level component roadmap diagrams representing each state in the migration
+* Whitebox component roadmap diagrams that show tactical implementation detail, including component boundaries, interfaces, adapters, and representative classes
 * Variations that reflect different assumptions or migration paths
 * Supporting documentation that provides context for decisions, tradeoffs, and transitions
 * Presentation-oriented views that use color coding and legends to improve readability across roadmap states
+
+In the whitebox roadmap views, color is used intentionally to communicate change over time:
+
+* **Green** indicates new elements introduced in a transition step
+* **Orange** indicates modified elements that evolve from the prior state
 
 Artifacts are versioned to reflect how the roadmap evolves over time.
 
@@ -51,3 +57,5 @@ In particular, the catalog domain is extended with a semantic search path in whi
 ## Purpose
 
 This repository is intended as a portfolio-oriented demonstration of architectural thinking. It emphasizes staged modernization, bounded-context-aware decomposition, polyglot persistence, external platform integration, event-driven processing, and selective introduction of AI capabilities within a coherent roadmap.
+
+It also demonstrates the ability to connect strategic architecture views with tactical implementation guidance. In addition to showing how systems evolve at the service and integration level, the repository includes whitebox component roadmap examples that illustrate how developers can execute those transitions through interface extraction, dependency inversion, adapters, and technology-specific client components while preserving application-facing abstractions.
