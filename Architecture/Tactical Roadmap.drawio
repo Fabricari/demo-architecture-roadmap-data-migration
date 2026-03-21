@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram id="CkdcQ6St8ijEHInG-0H5" name="Page-1">
+    <mxGraphModel dx="3426" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-91" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;labelBackgroundColor=none;" value="«web application, REST API»&lt;br&gt;&lt;b&gt;E-Commerce Web&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service&lt;/b&gt;" vertex="1">
+          <mxGeometry height="620" width="280" x="-1160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-103" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;CustomerMgmtTo&lt;br&gt;SqlServerClient&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Adapter&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="150" width="240" x="-1140" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-78" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;labelBackgroundColor=none;" value="«web application, REST API»&lt;br&gt;&lt;b&gt;E-Commerce Web&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service&lt;/b&gt;" vertex="1">
+          <mxGeometry height="350" width="280" x="-1880" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-74" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;SqlServerClient&lt;/b&gt;&lt;b&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="-1860" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-73" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;CustomerManagment&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="-1860" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-75" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-69" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-77" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-70" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-69" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«class»&lt;br&gt;&lt;b&gt;CustomerManager&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1820" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-70" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«class»&lt;br&gt;&lt;b&gt;SqlServerCustomer&lt;br&gt;Repository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1820" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-76" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;" value="«SQL Server»&lt;br&gt;&lt;b&gt;E-Commerce Database&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-1830" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-79" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;labelBackgroundColor=none;" value="«web application, REST API»&lt;br&gt;&lt;b&gt;E-Commerce Web&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service&lt;/b&gt;" vertex="1">
+          <mxGeometry height="550" width="280" x="-1520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-80" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;SqlServerClient&lt;/b&gt;&lt;b&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="-1500" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-81" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;CustomerManagment&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="330" width="240" x="-1500" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-82" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-84" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-83" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-85" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-84" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" value="«class»&lt;br&gt;&lt;b&gt;Customer Manager&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1460" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-85" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«class»&lt;br&gt;&lt;b&gt;SqlServerCustomer&lt;br&gt;Repository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1460" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-86" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;" value="«SQL Server»&lt;br&gt;&lt;b&gt;E-Commerce Database&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-1470" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-87" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="«required interface»&lt;br&gt;&lt;b&gt;ICustomerRepository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1460" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-89" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-88" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=0;dashed=1;" target="GlrfvkqNUWAOcXjEeWdp-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-90" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-88" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-88" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="«class»&lt;br&gt;&lt;b&gt;CustomerRepositoryTo&lt;br&gt;SqlServerCustomer&lt;br&gt;RepositoryAdapter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1460" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-92" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;SqlServerClient&lt;/b&gt;&lt;b&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="-1140" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-93" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;CustomerManagment&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="230" width="240" x="-1140" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-94" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-96" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-95" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-97" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-96" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«class»&lt;br&gt;&lt;b&gt;Customer Manager&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1100" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-97" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«class»&lt;br&gt;&lt;b&gt;SqlServerCustomer&lt;br&gt;Repository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1100" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-98" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;" value="«SQL Server»&lt;br&gt;&lt;b&gt;E-Commerce Database&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-1110" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-99" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«required interface»&lt;br&gt;&lt;b&gt;ICustomerRepository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1100" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-100" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-102" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=0;dashed=1;" target="GlrfvkqNUWAOcXjEeWdp-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-101" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-102" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-820" y="812.8571428571429" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-102" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" value="«class»&lt;br&gt;&lt;b&gt;CustomerRepositoryTo&lt;br&gt;SqlServerCustomer&lt;br&gt;RepositoryAdapter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-1100" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-104" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;labelBackgroundColor=none;" value="«web application, REST API»&lt;br&gt;&lt;b&gt;E-Commerce Web&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service&lt;/b&gt;" vertex="1">
+          <mxGeometry height="620" width="280" x="-800" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-105" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;CustomerMgmtTo&lt;br&gt;SalesforceClient&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Adapter&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="150" width="240" x="-780" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-106" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b style=&quot;text-align: center;&quot;&gt;SalesforceClient&lt;/b&gt;&lt;b&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="-780" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-107" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=5;labelBackgroundColor=none;" value="«component»&lt;br&gt;&lt;b&gt;CustomerManagment&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="230" width="240" x="-780" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-108" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-110" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-109" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-111" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-110" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«class»&lt;br&gt;&lt;b&gt;Customer Manager&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-740" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-111" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="«class»&lt;br&gt;&lt;b&gt;Salesforce&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Customer&lt;br&gt;Client&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-740" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-113" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="«required interface»&lt;br&gt;&lt;b&gt;ICustomerRepository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-740" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-114" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-116" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=block;endFill=0;dashed=1;" target="GlrfvkqNUWAOcXjEeWdp-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-115" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-116" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=open;endFill=0;" target="GlrfvkqNUWAOcXjEeWdp-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="812.8571428571429" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-116" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="«class»&lt;br&gt;&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CustomerRepositoryTo&lt;br&gt;&lt;/b&gt;&lt;b&gt;SalesforceCustomer&lt;br&gt;ClientAdapter&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-740" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-117" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" value="«crm»&lt;br&gt;&lt;b&gt;Salesforce&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="-750" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-118" edge="1" parent="1" source="GlrfvkqNUWAOcXjEeWdp-117" style="endArrow=oval;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;endFill=0;endSize=10;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-665" y="1015.1149425287356" as="sourcePoint" />
+            <mxPoint x="-660" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GlrfvkqNUWAOcXjEeWdp-119" parent="GlrfvkqNUWAOcXjEeWdp-118" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=none;movable=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="10" relative="1" width="10" x="1" as="geometry">
+            <mxPoint x="-5" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
