@@ -6,14 +6,14 @@
 - White elements = unchanged from the previous state
 
 ## Full Roadmap View
-![Full Roadmap](../Images/Architecture%20Roadmap%20-%20Technical%20Strategy.jpg)
+![Full Roadmap](Images/Architecture%20Roadmap%20-%20Technical%20Strategy.jpg)
 
 ---
 
 ## Current State: 3-Tier, Modular-Monolith
 
 ### Diagram
-![State 1 - Current Diagram](../Images/Architecture%20Roadmap%20-%2001%20Current.jpg)
+![State 1 - Current Diagram](Images/Architecture%20Roadmap%20-%2001%20Current.jpg)
 
 ### Architecture Overview
 Each actor/persona accesses the system through a bespoke user-experience with shared backend capabilities. The backend has been developed as a modular monolith with sub-domains isolated at the component level, but releasable as a single deployment. State for all of the system's entities is maintained within the single, normalized relational database.
@@ -31,7 +31,7 @@ Each actor/persona accesses the system through a bespoke user-experience with sh
 Centralize all customer management in an organizational CRM so the business can leverage Salesforce's customer lifecycle capabilities instead of self-managing customer data in SQL.
 
 ### Diagram
-![State 2 - Transition 1 Diagram](../Images/Architecture%20Roadmap%20-%2002%20CRM.jpg)
+![State 2 - Transition 1 Diagram](Images/Architecture%20Roadmap%20-%2002%20CRM.jpg)
 
 ### Architecture Change
 Subsequent changes should not affect the clients with code changes or re-deployment. The Customer Management module is refactored to have loose coupling with dependencies using required interfaces and adapters to consume a new Salesforce Client. The Salesforce Client module is introduced to handle all communication with the new Salesforce dependency. The system is integrated with Salesforce to centralize all customer management in an organizational CRM.
@@ -49,7 +49,7 @@ Subsequent changes should not affect the clients with code changes or re-deploym
 Decompose order and catalog responsibilities into domain-specific microservices so each domain can own its state independently and the web service stays focused on user-experience and use-case-specific logic.
 
 ### Diagram
-![State 3 - Transition 2 Diagram](../Images/Architecture%20Roadmap%20-%2003%20Microservices.jpg)
+![State 3 - Transition 2 Diagram](Images/Architecture%20Roadmap%20-%2003%20Microservices.jpg)
 
 ### Architecture Change
 Order Processing and Catalog Management modules are refactored to have loose coupling with dependencies using required interfaces and adapters to consume domain-specific microservices. Service Client modules are introduced to handle all communication with the new domain-specific microservices. Microservices are introduced to handle centralized management of domain-specific state, enabling subsequent reuse of domain-specific responsibilities and keeping the web service focused on user-experience and use-case-specific logic.
@@ -68,7 +68,7 @@ Order Processing and Catalog Management modules are refactored to have loose cou
 Introduce a new user-facing capability to search the catalog with descriptive text, improving product discovery through semantic-search experiences.
 
 ### Diagram
-![State 4 - Target Diagram](../Images/Architecture%20Roadmap%20-%2004%20AI%20Search.jpg)
+![State 4 - Target Diagram](Images/Architecture%20Roadmap%20-%2004%20AI%20Search.jpg)
 
 ### Architecture Change
 Catalog Management capabilities are extended to retrieve products within the catalog through semantic-search queries, orchestrating calls with a new Product Semantic Search Service. A Service Client module is introduced to handle communication with the new Product Semantic Search Service. The Product Semantic Search Service is introduced to handle responsibilities of semantic-search against an AI-engineered solution. The service provides encapsulation of a solution that is likely to be fine-tuned over time.
