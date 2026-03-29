@@ -1,9 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram id="CkdcQ6St8ijEHInG-0H5" name="Page-1">
-    <mxGraphModel dx="3406" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3472" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <mxCell id="1" parent="0" value="Roadmap 1" />
         <mxCell id="GlrfvkqNUWAOcXjEeWdp-91" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;labelBackgroundColor=none;" value="«web application, REST API»&lt;br&gt;&lt;b&gt;E-Commerce Web&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Service&lt;/b&gt;" vertex="1">
           <mxGeometry height="620" width="280" x="-1160" y="320" as="geometry" />
         </mxCell>
@@ -157,6 +157,24 @@
         <mxCell id="GlrfvkqNUWAOcXjEeWdp-119" parent="GlrfvkqNUWAOcXjEeWdp-118" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=none;movable=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="" vertex="1">
           <mxGeometry height="10" relative="1" width="10" x="1" as="geometry">
             <mxPoint x="-5" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OmjW1M2xX349XgPBkC--1" edge="1" parent="1" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="-1560" y="1130" as="sourcePoint" />
+            <mxPoint x="-1560" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OmjW1M2xX349XgPBkC--2" edge="1" parent="1" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="-1200" y="1130" as="sourcePoint" />
+            <mxPoint x="-1200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OmjW1M2xX349XgPBkC--3" edge="1" parent="1" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="-840" y="1130" as="sourcePoint" />
+            <mxPoint x="-840" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
